@@ -35,18 +35,23 @@ p {
     margin: 0; 
 }
 
-img {
-    width: 320px;
-}
-
 a {
     text-decoration: none;
     color: violet;
 }
 
+hr {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+}
+
 /* las pseudoclases son solo para enlaces a */
 a:hover {
-    color: greenyellow;
+    color: grey;
 }
 
 #titulo-header {
@@ -74,12 +79,29 @@ a:hover {
 }
 
 .opcion {
-    border: 1px solid white;
-    border-radius: 10%;
+    color: white;
+}
+
+.hero {
+    width: 100vw;
 }
 
 .imagen-familia {
-    position: relative;
+    width: 100%
+    /* position: relative; */
+}
+
+.tipo-imagen {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-persona {
+    width: 180px;
+    border: 3px solid pink;
+    border-radius: 10px;
 }
 
 .leader {
@@ -93,11 +115,23 @@ a:hover {
     flex-direction: column;
     padding: 0;
     background-color: #eeeeee;
-    border-bottom: 1px solid pink;
     border-top: 1px solid pink;
 }
 
+.tri {
+    width: 100vw;
+    position: relative;
+}
 
+.triangulo {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top: 15px solid pink;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
 
 .contacto {
     list-style: none;
@@ -127,7 +161,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: 3px red;
 }
 
 .datos {
@@ -156,17 +189,14 @@ a:hover {
     align-items: flex-start;
 }
 
-#textarea {
-    width: 100vw;
-    border: 2px solid violet;
-}
-
 .leader.footer {
-    border-top: 1px solid pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu-footer {
@@ -183,6 +213,8 @@ a:hover {
 .imagen-logo {
     width: 80px;
     margin-top: 15px;
+    border: 3px solid pink;
+    border-radius: 10px;
 }
 
 .elemento {
@@ -190,3 +222,13 @@ a:hover {
 }
 
 
+@media all and (min-width:600px) {
+    .fila {
+        display: flex;
+        align-items: center;
+    }
+    
+    .fila:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
+}
