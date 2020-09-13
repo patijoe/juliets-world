@@ -1,192 +1,20 @@
 /* font-family: 'Rubik', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
 body {
-    margin:0;
+    padding:20px;
+    font-family: 'Rubik', sans-serif;
+    background-color: greenyellow;
 }
 
-h1 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    color: white;  
-    margin: 0;
-    padding: 20px 0;
-    text-align: center;
+.titulo {
+    color: darkmagenta;
 }
 
-h2 {
-    font-family: 'Rubik', sans-serif;
+.titulo2 {
+    color: darkmagenta;
+}
+
+.titulo3 {
+    color: orange;
     font-size: 24px;
-    margin: 20px 0 0;
-    color: violet;
-    text-align: center;
 }
-
-h3 {
-    font-family: 'Rubik', sans-serif;
-    font-size: 22px;
-    text-align: center;
-    color: violet;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    text-align: center; 
-    margin: 0; 
-}
-
-img {
-    width: 320px;
-}
-
-a {
-    text-decoration: none;
-    color: violet;
-}
-
-/* las pseudoclases son solo para enlaces a */
-a:hover {
-    color: greenyellow;
-}
-
-#titulo-header {
-    background-color: violet;
-   /* La opacidad no me funciona */
-    opacity: 0.95;
-}
-
-.nav-principal {
-    margin: 0;
-    padding: 13px;
-    background-color: plum;
-    opacity: 0.90;
-}
-
-.menu-principal {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    justify-content: space-evenly;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    color: white;
-}
-
-.opcion {
-    border: 1px solid white;
-    border-radius: 10%;
-}
-
-.imagen-familia {
-    position: relative;
-}
-
-.leader {
-    padding: 15px;
-}
-
-.lista-quienes-somos {
-    list-style: none;
-    margin: 0;
-    display: fex;
-    flex-direction: column;
-    padding: 0;
-    background-color: #eeeeee;
-    border-bottom: 1px solid pink;
-    border-top: 1px solid pink;
-}
-
-
-
-.contacto {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.menu-footer {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;  
-}
-
-.imagen-email {
-    width: 30px;
-}
-
-.contenedor {
-    display: flex;
-}
-.img-contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    border: 3px red;
-}
-
-.datos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.correo {
-
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    margin: 10px;
-    color: violet;
-}
-
-.movil {
-    color: violet;
-    font-family: 'Rubik', sans-serif;
-    font-size: 15px;
-    margin: 10px;
-}
-
-.datos:nth-child(2) {
-    align-items: flex-start;
-}
-
-#textarea {
-    width: 100vw;
-    border: 2px solid violet;
-}
-
-.leader.footer {
-    border-top: 1px solid pink;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    font-family: 'Rubik', sans-serif;
-    color: violet;
-
-}
-
-.imagen-logo {
-    width: 80px;
-    margin-top: 15px;
-}
-
-.elemento {
-    margin: 10px;
-}
-
-
